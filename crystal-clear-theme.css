@@ -106,7 +106,4 @@
 }
 
 /* ADD ADDITIONAL CSS BELOW HERE */
-/* REAL_ELDHO custom branding */
-[class*="title"]::before {
-    content: "REAL_ELDHO" !important;
-}
+
