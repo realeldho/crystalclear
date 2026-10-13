@@ -108,7 +108,7 @@
 /* ADD ADDITIONAL CSS BELOW HERE */
 /* REAL_ELDHO CUSTOM BRANDING */
 :is(.theme-dark, .theme-light):not(.platform-osx) .leading_c38106::before {
-    content: "REAL_ELDHO";
+    content: "Discord";
     position: static;
     margin-left: 10px;
     font-size: 16px;
@@ -119,7 +119,7 @@
 }
 
 :is(.theme-dark, .theme-light):not(.platform-osx) .leading_c38106::after {
-    content: "premium";
+    content: "pro";
     position: static;
     margin-top: -5px;
     margin-left: 5px;
