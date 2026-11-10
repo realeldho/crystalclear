@@ -121,31 +121,44 @@
   --muted-text: #86868e;
 }
 
+/* =========================================
+   REAL_ELDHO CUSTOM BRANDING
+========================================= */
 
-/* REAL_ELDHO CUSTOM BRANDING */
-
-/* Hide original ClearVision wordmark */
-div[class^="wordmarkWindows"] svg {
-    display: none !important;
+/* Target Discord's actual Windows title bar */
+.bar_3zSH5d .leading_3zSH5d {
+    display: flex !important;
+    align-items: center !important;
 }
 
-/* REAL_ELDHO */
-div[class^="wordmarkWindows"]::before {
+/* Back and forward buttons */
+.bar_3zSH5d .leading_3zSH5d .backForwardButtons_nS9Yqn {
+    order: 1 !important;
+}
+
+/* REAL_ELDHO branding */
+.bar_3zSH5d .leading_3zSH5d::before {
     content: "REAL_ELDHO" !important;
-    display: inline-block;
-    margin-left: 10px;
+    order: 2 !important;
+    display: inline-block !important;
+    margin-left: 24px;
+    font-family: var(--main-font);
     font-size: 16px;
     font-weight: 700;
     color: #ffffff;
     text-shadow: 0 0 5px #2780e6;
+    white-space: nowrap;
 }
 
 /* PRO badge */
-div[class^="wordmarkWindows"]::after {
+.bar_3zSH5d .leading_3zSH5d::after {
     content: "PRO" !important;
-    display: inline-block;
+    order: 3 !important;
+    display: inline-block !important;
     margin-left: 7px;
-    font-size: 11px;
+    font-family: var(--code-font);
+    font-size: 10px;
     font-weight: 700;
     color: #2780e6;
+    letter-spacing: 1px;
 }
