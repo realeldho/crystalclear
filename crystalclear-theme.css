@@ -1,9 +1,8 @@
 /**
- * @name CrystalClear - REAL_ELDHO
+ * @name CrystalClear - JAZZZZ
  * @author REAL_ELDHO
  * @version 1.0.0
- * @description ClearVision V7 with REAL_ELDHO branding.
- * @source https://github.com/realeldho/crystalclear
+ * @description ClearVision V7 with JAZZZZ branding.
  */
 
 /* IMPORT CSS */
@@ -136,9 +135,9 @@
     order: 1 !important;
 }
 
-/* REAL_ELDHO branding */
+/* JAZZZZ branding */
 .bar_3zSH5d .leading_3zSH5d::before {
-    content: "REAL_ELDHO" !important;
+    content: "JAZZZ" !important;
     order: 2 !important;
     display: inline-block !important;
     margin-left: 24px;
@@ -150,9 +149,9 @@
     white-space: nowrap;
 }
 
-/* PRO badge */
+/* GOD badge */
 .bar_3zSH5d .leading_3zSH5d::after {
-    content: "PRO" !important;
+    content: "GOD" !important;
     order: 3 !important;
     display: inline-block !important;
     margin-left: 7px;
